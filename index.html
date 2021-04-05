@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="modal opened">
+        <div class="modal-overlay modal-toggle"></div>
+        <div class="modal-wrapper modal-transition">
+            <div class="modal-header">
+                <button class="modal-close modal-toggle"><i class="fas fa-times"></i></button>
+                <h2 class="modal-heading">Etkinlik Ekle</h2>
+            </div>
+
+            <div class="modal-body">
+                <div class="modal-content">
+                    <form class="modal-form" action="">
+                        <div class="form-modal-item">
+                            <i class="fas fa-heading"></i>
+                            <input type="text" placeholder="Etkinlik Başlık">
+                        </div>
+                        <div class="form-modal-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <input type="text" placeholder="Etkinlik Mekanı..">
+                        </div>
+                        <div class="form-modal-item">
+                            <i class="fas fa-calendar-alt"></i>
+                            <input type="datetime-local" value="04.04.2021 00:00" placeholder="Etkinlik Başlık..">
+                        </div>
+                        <div class="form-modal-item">
+                            <i class="fas fa-comment-alt"></i>
+                            <textarea rows="5" placeholder="Açıklama"></textarea>
+                        </div>
+                        <button class="form-modal-btn" type="submit">Kaydet</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
